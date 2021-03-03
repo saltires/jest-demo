@@ -11,6 +11,7 @@ function endsWith(str, match){
 
     return reg.test(str.replace(/\s*$/g, ""));
 }
-module.exports = {
+
+export {
     endsWith
 }
