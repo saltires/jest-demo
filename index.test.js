@@ -42,6 +42,8 @@ test('测试 toContain 匹配器', () => {
 const throwErrorFunc = () => {
     throw new Error('error')
 }
+
+
 test('测试异常匹配器', () => {
     expect(throwErrorFunc).toThrow()
 })

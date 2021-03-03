@@ -20,6 +20,7 @@ test('测试 toEqual 匹配器', () => {
     expect(foo).toEqual({name: 'saltire'})
 })
 
+
 test('测试 toBeNull 匹配器', () => {
     expect(null).toBeNull()
 })
